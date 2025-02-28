@@ -16,6 +16,7 @@ const App = () => {
     }
   ];
 
+  // Calcular el total de ejercicios
   const totalExercises = parts.reduce((sum, part) => sum + part.exercises, 0);
 
   return (
