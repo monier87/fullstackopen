@@ -1,0 +1,48 @@
+/* Estilos para el contenedor principal */
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  }
+  
+  /* Estilos para el título */
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #007bff; /* Color azul para los botones */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 5px; /* Espaciado entre botones */
+    font-size: 1rem; /* Tamaño de fuente legible */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Animación suave al cambiar de color */
+  }
+  
+  /* Efecto hover en los botones */
+  button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+  }
+  
+  /* Botón de reinicio con estilo diferente */
+  button:last-of-type {
+    background-color: #dc3545; /* Color rojo para el botón de reinicio */
+  }
+  
+  button:last-of-type:hover {
+    background-color: #a71d2a; /* Color más oscuro para hover en el botón de reinicio */
+  }
+  
